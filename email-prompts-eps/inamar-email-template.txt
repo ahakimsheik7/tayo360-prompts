@@ -1,0 +1,40 @@
+Create a professional HTML email or landing section using **table-based layout** with **inline CSS only**. This layout should reflect the Tayo360 brand and wellness aesthetic. It must be EPS-friendly and compatible with all major email clients (Outlook, Gmail, Apple Mail).
+
+📐 Layout Structure:
+
+1. **Header Section**
+   - Full-width container with a **white or soft background (#F9F9F9)**
+   - Centered two logos side by side:
+     - Left: **Tayo360 logo** (150px wide)
+     - Right: **Inamari logo** (150px wide)
+   - Logos should be horizontally aligned with 20px spacing
+
+2. **Main Banner Section**
+   - Background color: `#FFEEC1` (light wellness yellow)
+   - Centered text block:
+     - Main Heading: **“Inamari! Let’s move together.”**
+     - Subheading: **“Sunday family wellness starts with presence.”**
+     - Optional image area (placeholder or banner image)
+   - Padding: 40px all sides
+   - Font: `Arial, sans-serif`, font size: 18px
+
+3. **Footer Section**
+   - Background color: `#6B4EFF` (Tayo360 purple)
+   - White text
+   - Content:
+     - “Follow us: TikTok & Instagram @Tayo360Official | WhatsApp: +1-612-978-1126”
+     - © 2025 Tayo360 & Inamari | All rights reserved
+   - Text centered and styled cleanly
+   - Font-size: 14px
+
+🎨 Style Notes:
+- Use only **inline CSS**
+- Use **tables for layout**
+- No external stylesheets
+- Set `max-width: 600px` for center wrapper table
+- Use `role="presentation"` for all layout tables
+- Add `alt` attributes to logos and use meaningful filenames
+
+📁 Output:
+- One complete HTML file with all layout and styling inline
+- Suitable for use in Mailchimp, Salesforce, Gmail, and mobile-friendly viewers
