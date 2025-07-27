@@ -1,0 +1,54 @@
+nothing to commit, working tree clean
+sheik@Abdulhakims-MacBook-Air tayo360-prompts % git push origin main
+Everything up-to-date
+sheik@Abdulhakims-MacBook-Air tayo360-prompts % 🎨 **Email Prompt: Sleep Tips Carousel**
+
+🛌 **Purpose**:
+Create a visually engaging carousel email to promote healthy sleep habits. The email should be designed for a wellness brand and optimized for mobile and desktop viewing.
+
+---
+
+🔻 **Carousel Slides**:
+1. **Slide 1**: 
+   - **Title**: "Struggling to Sleep?"
+   - **Image**: A cozy bedroom with soft lighting.
+   - **Text**: "Discover simple tips to improve your sleep quality tonight."
+
+2. **Slide 2**: 
+   - **Title**: "Tip #1: Stick to a Schedule"
+   - **Image**: A clock on a nightstand.
+   - **Text**: "Go to bed and wake up at the same time every day—even on weekends."
+
+3. **Slide 3**: 
+   - **Title**: "Tip #2: Create a Sleep Sanctuary"
+   - **Image**: A tidy, dark bedroom with blackout curtains.
+   - **Text**: "Keep your bedroom cool, quiet, and free of distractions."
+
+4. **Slide 4**: 
+   - **Title**: "Tip #3: Limit Screen Time"
+   - **Image**: A person reading a book instead of using a phone.
+   - **Text**: "Avoid screens at least 1 hour before bedtime."
+
+5. **Slide 5**: 
+   - **Title**: "Ready to Sleep Better?"
+   - **Image**: A person peacefully sleeping.
+   - **Text**: "Start your journey to better sleep today!"
+
+---
+
+📱 **Call-to-Action**:
+- Button Text: "Learn More"
+- Link: [Insert link to sleep tips resource]
+
+---
+
+✨ **Design Notes**:
+- Use calming colors like blue, lavender, and white.
+- Include soft, rounded fonts for a relaxing feel.
+- Optimize for both light and dark mode email clients.
+
+---
+
+📧 **Footer**:
+- "You're receiving this email because you subscribed to [Brand Name]."
+- "Unsubscribe | Contact Us"
