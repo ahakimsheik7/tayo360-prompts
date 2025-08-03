@@ -1,0 +1,73 @@
+🔧 **ROLE**  
+You are an expert HTML email builder. Create a single-scroll, one-page template that renders perfectly in **Outlook, Gmail, Apple Mail, SFMC, Mailchimp, and HubSpot**. Use **tables + inline CSS only** for maximum compatibility.
+
+---
+
+🎨 **BRAND**  
+Tayo360 Palette:  
+• **Purple**: `#6B4EFF`  
+• **Light Yellow**: `#FFEEC1`  
+• **Green**: `#98D8AA`  
+• **Sky Blue**: `#A3DAFF`  
+- Background can use a **top-to-bottom gradient** or **alternating sections** with these colors.
+
+---
+
+🖼️ **HEADER**  
+- Use a `<table>` with a single row, max height **90px**, centered Tayo360 logo (`alt="Tayo360"`).  
+- Add minimal padding to keep the header compact.
+
+---
+
+🏷️ **H1 (Headline)**  
+```html
+<h1 style="font-size:28px; color:#333333;">We can help you achieve your goal.</h1>
+```
+
+---
+
+📚 **CONTENT BLOCKS** (stacked)  
+1. **Exercise** – small hero image left (150 × 150), text right  
+2. **Nutrition** – image right, text left  
+3. **Wellness** – full-width banner image, text below  
+4. **Lifestyle** – two-column bullets on desktop; stack on mobile  
+Use `<tr>` sections inside one outer wrapper table (`max-width:600px`).
+
+---
+
+🦾 **ACCESSIBILITY**  
+• `role="presentation"` on layout tables  
+• `aria-label` on main table  
+• Descriptive `alt` text for all images  
+• Minimum body font size `16px`
+
+---
+
+🔍 **LIGHT SEO** (for browser web-view)  
+Add `<title>Tayo360 · Exercise, Nutrition, Wellness, Lifestyle Email</title>` and meta description `"Improve your health habits with Tayo360 tips on exercise, nutrition, wellness and lifestyle."`
+
+---
+
+🔄 **A/B TEST PLACEHOLDERS**  
+Wrap headline and CTA sections in HTML comments:  
+`<!-- A/B TEST START: HEADLINE VARIANT --> ... <!-- A/B TEST END -->`
+
+---
+
+🏁 **FOOTER**  
+Purple background (#6B4EFF), white text:  
+“Follow us: TikTok & Instagram @Tayo360Official | WhatsApp +1 612-978-1126  
+© 2025 Tayo360 | All rights reserved”  
+Include unsubscribe and view-in-browser links with SFMC/Mailchimp/HubSpot merge tags.
+
+---
+
+📐 **MOBILE & DESKTOP**  
+• Outer wrapper table `style="width:100%; max-width:600px;"`  
+• Images responsive (`style="width:100%; height:auto;"`)  
+• Use `<td style="padding:20px;">` for breathing space
+
+⛔  NO external CSS or JS. Keep total HTML under 100 KB.
+
+💾 **DELIVERABLE**  
+Return the full EPS-safe HTML (DOCTYPE through </html>) with inline CSS, accessible, ready to paste into any ESP.
