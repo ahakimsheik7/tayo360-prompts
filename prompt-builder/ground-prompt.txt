@@ -1,0 +1,35 @@
++-------------------------------------------------------------+
+|               🧾 Prompt Instruction Layer                   |
+|-------------------------------------------------------------|
+| "Write a professional follow-up email to a customer who has |
+| recently purchased a product."                              |
++-------------------------------------------------------------+
+
+                ⬇ Grounding Data from Salesforce
++-------------------------------------------------------------+
+| Customer Name   → {{Customer.Name}} → Haji                  |
+| Company         → {{Company.Name}}   → Deegan               |
+| Product         → {{Product.Name}}   → Farmer Tractor       |
++-------------------------------------------------------------+
+
+                ⬇ Guardrails / Guidelines
++-------------------------------------------------------------+
+| - Thank the customer for their purchase                     |
+| - Mention the product by name                               |
+| - Highlight warranty/support                                |
+| - Tone: professional + friendly                             |
++-------------------------------------------------------------+
+
+                ⬇ Final Output (Generated Email)
++-------------------------------------------------------------+
+| Subject: Thank You for Your Purchase of the Farmer Tractor  |
+|                                                             |
+| Dear Haji,                                                  |
+| Thank you for choosing Deegan and purchasing the Farmer     |
+| Tractor. We’re excited to support you as you put it to work.|
+|                                                             |
+| Our team is here to assist with warranty and support.       |
+|                                                             |
+| Warm regards,                                               |
+| The Deegan Customer Care Team                               |
++-------------------------------------------------------------+
